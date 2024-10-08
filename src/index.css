@@ -111,7 +111,7 @@ html::-webkit-scrollbar-thumb:hover{
 body{
   background-image: url("./gif/gif1.gif");
   background-repeat: repeat;
-  background-position: "center";
+  background-position: center;
   background-size: 800px 800px;
   width: 100%;
 }
@@ -131,7 +131,7 @@ body{
   z-index: 2;
   background-image: url("./gif/gif1.gif");
   background-repeat: repeat;
-  background-position: "center";
+  background-position: center;
   background-size: cover;
 }
 .homePage nav img{
@@ -529,7 +529,10 @@ body{
   .homePage nav ul{
     display: none;
     pointer-events: all;
-    background: gray;
+    background-image: url("./gif/gif1.gif");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 800px 800px;
     position: absolute;
     top: calc(100% + 1px);
     right: 2px;
