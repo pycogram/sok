@@ -77,7 +77,7 @@ function App() {
                   <Contact logo2={logo2} allImg={allImg} allImg4={allImg4} />
                 </Route>
                 <Route path="*">
-                <Home ObjImg={ allImg } />
+                  <Home ObjImg={ allImg } />
                   <About allImg2={allImg2} />
                   <Roadmap rmPic={rmPic} />
                   <Token allImg3={allImg3} />
