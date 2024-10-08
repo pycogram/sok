@@ -76,9 +76,13 @@ function App() {
                 <Route exact path="/contact">
                   <Contact logo2={logo2} allImg={allImg} allImg4={allImg4} />
                 </Route>
-                {/* <Route path="*">
-                  <Home ObjImg={ allImg } />
-                </Route> */}
+                <Route path="*">
+                <Home ObjImg={ allImg } />
+                  <About allImg2={allImg2} />
+                  <Roadmap rmPic={rmPic} />
+                  <Token allImg3={allImg3} />
+                  <Contact logo2={logo2} allImg={allImg} allImg4={allImg4} />
+                </Route>
               </Switch>
             </div>
       </div>
